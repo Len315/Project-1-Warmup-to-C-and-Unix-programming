@@ -6,12 +6,12 @@
 run_test() {
     test_num=$1
     # Define file paths for the input, expected output, and actual output
-    input_file="/home/len/Documents/KaSyOhj/ostep-projects/initial-reverse/tests/${test_num}.run"
-    expected_output_file="/home/len/Documents/KaSyOhj/ostep-projects/initial-reverse/tests/${test_num}.out"
-    actual_output_file="/home/len/Documents/KaSyOhj/ostep-projects/initial-reverse/tests/${test_num}.actual"
+    input_file="../initial-reverse/tests/${test_num}.run"
+    expected_output_file="../initial-reverse/tests/${test_num}.out"
+    actual_output_file="../initial-reverse/tests/${test_num}.actual"
 
     # Run the `reverse` program with the input file and save the output to the actual output file
-    /home/len/Documents/KaSyOhj/ostep-projects/initial-reverse/reverse "$input_file" "$actual_output_file"
+    ../initial-reverse/reverse "$input_file" "$actual_output_file"
 
     # Compare the actual output with the expected output
     if ! diff -q "$actual_output_file" "$expected_output_file"; then
