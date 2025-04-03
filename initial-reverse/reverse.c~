@@ -1,6 +1,7 @@
 /*
-fprintf such as Line 19, 27, 33: https://man7.org/linux/man-pages/man3/fprintf.3.html
-comparing command line arguments: https://man7.org/linux/man-pages/man3/strcmp.3.html
+Sources
+fprintf usage: https://man7.org/linux/man-pages/man3/fprintf.3.html
+Comparing command line arguments: https://man7.org/linux/man-pages/man3/strcmp.3.html
 Finding files identificality using st_ino and st_dev of stat: https://www.ibm.com/docs/en/i/7.3?topic=ssw_ibm_i_73/apis/stat.htm
 */
 #include <stdio.h>
